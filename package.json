@@ -1,0 +1,27 @@
+{
+  "name": "upwork-scraper-without-stale-job-posts",
+  "version": "1.0.0",
+  "description": "A fast, efficient Upwork scraper that returns only fresh (<= 24h), de-duplicated job posts.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "scrape": "node src/main.js",
+    "lint": "node -e \"require('fs').access('src/main.js', fs.constants.R_OK, (e) => { if (e) process.exit(1); })\""
+  },
+  "keywords": [
+    "upwork",
+    "scraper",
+    "jobs",
+    "automation",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
