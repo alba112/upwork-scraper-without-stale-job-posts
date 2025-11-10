@@ -1,0 +1,10 @@
+{
+  "description": "Sample input configuration for running the Upwork scraper via CLI.",
+  "usage": "node src/main.js \"https://www.upwork.com/nx/jobs/search/?q=web%20developer\"",
+  "searchUrl": "https://www.upwork.com/nx/jobs/search/?q=web%20developer",
+  "notes": [
+    "You can override the search URL by passing it as the first CLI argument.",
+    "Alternatively, set the UPWORK_SEARCH_URL environment variable.",
+    "Proxy and cookie settings are controlled via src/config/settings.example.json."
+  ]
+}
