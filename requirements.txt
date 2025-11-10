@@ -1,0 +1,3 @@
+# Python dependencies are optional for this project.
+# The core scraper is implemented in Node.js (see package.json).
+# This file exists to satisfy environments that expect a requirements.txt.
