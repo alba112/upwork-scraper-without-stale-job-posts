@@ -1,0 +1,24 @@
+{
+  "searchUrl": "https://www.upwork.com/nx/jobs/search/?q=web%20developer",
+  "maxPages": 1,
+  "minDelayMs": 1500,
+  "maxDelayMs": 4000,
+  "proxies": [
+    {
+      "label": "local-http-proxy",
+      "protocol": "http",
+      "host": "127.0.0.1",
+      "port": 8080,
+      "auth": {
+        "username": "",
+        "password": ""
+      },
+      "enabled": false
+    }
+  ],
+  "cookies": {
+    "upwork": ""
+  },
+  "logLevel": "info",
+  "outputPath": "./data/output.sample.json"
+}
